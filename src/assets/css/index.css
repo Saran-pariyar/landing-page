@@ -2,4 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  /* sizes for the font : Regular 400 & Bold 700 */
 }
