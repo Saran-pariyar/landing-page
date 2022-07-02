@@ -1,4 +1,10 @@
+section {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
 .contact {
+  width: 100%;
   margin: 3rem 2rem 0;
 }
 
@@ -72,4 +78,13 @@ input[type="number"]::-webkit-outer-spin-button {
   color: #fff;
   box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
   cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 }
