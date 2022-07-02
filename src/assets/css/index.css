@@ -1,7 +1,25 @@
-* {
+*,
+html,
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Montserrat", sans-serif;
   /* sizes for the font : Regular 400 & Bold 700 */
+}
+
+body{
+  background-color: #fafafa;
+}
+
+.container {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+
+  .container{
+    margin-inline: 4rem;
+  }
 }
