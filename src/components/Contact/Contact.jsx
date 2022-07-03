@@ -1,9 +1,9 @@
 import React from "react";
-import './Contact.css'
+import "./Contact.css";
 
 const Contact = () => {
   return (
-    <section className='contact'>
+    <section className="contact">
       <div className="container">
         <h1>
           Love to hear from you, <span> Get in touch</span>
@@ -45,7 +45,7 @@ const Contact = () => {
               type="textarea"
               id="message"
               cols="50"
-              rows="8"
+              rows="6"
               autoComplete="message"
               spellCheck
               required

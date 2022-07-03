@@ -1,12 +1,12 @@
-
 .contact {
-  width: 100%;
-  margin: 3rem 2rem 0;
+  /* width: 100%; */
+  padding: 2rem 1rem;
 }
+
 
 .contact h1 {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: #222222;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .align-form input {
-  border: none;
+  border: 2px solid #3333;
   background: #fff;
   font-size: 1rem;
   font-weight: 500;
@@ -48,7 +48,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .align-form textarea {
-  border: none;
+  border: 2px solid #3333;
   padding: 0.5rem 0.8rem;
   background-color: #fff;
   font-size: 1rem;
@@ -75,8 +75,9 @@ input[type="number"]::-webkit-outer-spin-button {
   box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
+
 @media screen and (min-width: 768px) {
-  
+
   .contact {
     display: flex;
     align-items: center;
